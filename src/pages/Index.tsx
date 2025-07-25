@@ -107,7 +107,7 @@ const Index = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Icon name="Terminal" size={24} className="text-green-600 flex-shrink-0" />
-                    <span className="whitespace-nowrap">Системное администрирование</span>
+                    <span className="text-sm leading-tight">Системное администрирование</span>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>

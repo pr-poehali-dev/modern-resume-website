@@ -85,9 +85,12 @@ const Index = () => {
               {/* Backend */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Icon name="Server" size={24} className="text-blue-600" />
-                    Backend разработка
+                  <CardTitle className="flex items-center gap-3">
+                    <Icon name="Server" size={24} className="text-blue-600 flex-shrink-0" />
+                    <div>
+                      <div>Backend</div>
+                      <div className="text-sm font-normal text-slate-600">разработка</div>
+                    </div>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -105,9 +108,12 @@ const Index = () => {
               {/* Systems */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
+                  <CardTitle className="flex items-center gap-3">
                     <Icon name="Terminal" size={24} className="text-green-600 flex-shrink-0" />
-                    <span className="text-sm leading-tight">Системное администрирование</span>
+                    <div>
+                      <div>DevOps</div>
+                      <div className="text-sm font-normal text-slate-600">администрирование</div>
+                    </div>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -124,9 +130,12 @@ const Index = () => {
               {/* Data & Analytics */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-2">
-                    <Icon name="BarChart3" size={24} className="text-purple-600" />
-                    Данные и аналитика
+                  <CardTitle className="flex items-center gap-3">
+                    <Icon name="BarChart3" size={24} className="text-purple-600 flex-shrink-0" />
+                    <div>
+                      <div>Данные</div>
+                      <div className="text-sm font-normal text-slate-600">аналитика</div>
+                    </div>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>

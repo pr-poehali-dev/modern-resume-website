@@ -23,7 +23,7 @@ const Index = () => {
       <section className="container mx-auto px-6 py-20 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="w-32 h-32 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8 flex items-center justify-center">
-            <Icon name="Code" size={48} className="text-white" />
+            <Icon name="Terminal" size={48} className="text-white" />
           </div>
           <h1 className="text-5xl font-bold text-slate-800 mb-6">
             Разработчик ПО
@@ -85,12 +85,9 @@ const Index = () => {
               {/* Backend */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-3">
+                  <CardTitle className="flex items-center gap-2">
                     <Icon name="Server" size={24} className="text-blue-600 flex-shrink-0" />
-                    <div>
-                      <div>Backend</div>
-                      <div className="text-sm font-normal text-slate-600">разработка</div>
-                    </div>
+                    Backend разработка
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -108,12 +105,9 @@ const Index = () => {
               {/* Systems */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-3">
-                    <Icon name="Terminal" size={24} className="text-green-600 flex-shrink-0" />
-                    <div>
-                      <div>DevOps</div>
-                      <div className="text-sm font-normal text-slate-600">администрирование</div>
-                    </div>
+                  <CardTitle className="flex items-center gap-2">
+                    <Icon name="Settings" size={24} className="text-green-600 flex-shrink-0" />
+                    Системное администрирование
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -130,12 +124,9 @@ const Index = () => {
               {/* Data & Analytics */}
               <Card>
                 <CardHeader>
-                  <CardTitle className="flex items-center gap-3">
+                  <CardTitle className="flex items-center gap-2">
                     <Icon name="BarChart3" size={24} className="text-purple-600 flex-shrink-0" />
-                    <div>
-                      <div>Данные</div>
-                      <div className="text-sm font-normal text-slate-600">аналитика</div>
-                    </div>
+                    Данные и аналитика
                   </CardTitle>
                 </CardHeader>
                 <CardContent>

@@ -72,16 +72,7 @@ const Index = () => {
                 <h3 className="font-semibold text-slate-800">50+</h3>
                 <p className="text-slate-600">Проектов</p>
               </Card>
-              <Card className="p-6 text-center">
-                <Icon name="Users" size={32} className="mx-auto mb-4 text-purple-600" />
-                <h3 className="font-semibold text-slate-800">10+</h3>
-                <p className="text-slate-600">Клиентов</p>
-              </Card>
-              <Card className="p-6 text-center">
-                <Icon name="Award" size={32} className="mx-auto mb-4 text-orange-600" />
-                <h3 className="font-semibold text-slate-800">100%</h3>
-                <p className="text-slate-600">Успех</p>
-              </Card>
+
             </div>
           </div>
         </div>
@@ -286,16 +277,7 @@ const Index = () => {
               </Card>
             </div>
             
-            <div className="flex gap-4 justify-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                <Icon name="Send" size={20} className="mr-2" />
-                Написать сообщение
-              </Button>
-              <Button variant="outline" size="lg" className="border-slate-600 text-white hover:bg-slate-800">
-                <Icon name="Github" size={20} className="mr-2" />
-                GitHub
-              </Button>
-            </div>
+
           </div>
         </div>
       </section>

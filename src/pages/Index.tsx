@@ -37,9 +37,11 @@ const Index = () => {
               <Icon name="Download" size={20} className="mr-2" />
               Скачать резюме
             </Button>
-            <Button variant="outline" size="lg">
-              <Icon name="Mail" size={20} className="mr-2" />
-              Связаться
+            <Button variant="outline" size="lg" asChild>
+              <a href="#contact">
+                <Icon name="Mail" size={20} className="mr-2" />
+                Связаться
+              </a>
             </Button>
           </div>
         </div>
@@ -61,16 +63,11 @@ const Index = () => {
                 и интеграции различных платформ. Опыт работы с embedded системами и IoT.
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              <Card className="p-6 text-center">
-                <Icon name="Calendar" size={32} className="mx-auto mb-4 text-blue-600" />
-                <h3 className="font-semibold text-slate-800">5+ лет</h3>
-                <p className="text-slate-600">Опыта</p>
-              </Card>
-              <Card className="p-6 text-center">
-                <Icon name="Code2" size={32} className="mx-auto mb-4 text-green-600" />
-                <h3 className="font-semibold text-slate-800">50+</h3>
-                <p className="text-slate-600">Проектов</p>
+            <div className="flex justify-center">
+              <Card className="p-8 text-center max-w-xs">
+                <Icon name="Calendar" size={48} className="mx-auto mb-6 text-blue-600" />
+                <h3 className="text-2xl font-bold text-slate-800 mb-2">5+ лет</h3>
+                <p className="text-lg text-slate-600">Профессионального опыта</p>
               </Card>
 
             </div>
